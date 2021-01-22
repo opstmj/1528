@@ -17,12 +17,11 @@ const features = [
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '免費信息',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        我們將在店内爲您發佈和提供社區周邊的生活、房產信息等，這一切都是免費的！
       </>
     ),
   },
@@ -58,7 +57,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
+      title={`${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
