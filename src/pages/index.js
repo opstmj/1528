@@ -7,13 +7,12 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const features = [
-  {
-    title: 'Easy to Use',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+  {  
+    title: '建德经典小吃',
+    imageUrl: 'https://stc-new.8531.cn/assets/20181214/1544795770205_5c13b67a159bb86432f306c5.png',
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        我们为您提供经典的建德小吃，豆腐包、严州酥饼、苞芦（玉米）粿等
       </>
     ),
   },
