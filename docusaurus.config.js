@@ -10,7 +10,7 @@ module.exports = {
   projectName: 'docusaurus', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '1528',
       logo: {
         alt: 'My Site Logo',
         src: 'img/logo.svg',
@@ -18,7 +18,7 @@ module.exports = {
       items: [
         {
           to: 'docs/',
-          activeBasePath: 'docs',
+          activeBasePath: '最新活动',
           label: 'Docs',
           position: 'left',
         },
