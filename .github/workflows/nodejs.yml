@@ -11,9 +11,7 @@ jobs:
         node-version: [14.15.0]
 
     steps:
-      - name: Get latest code
-      - uses: actions/checkout@v2
-      
+      - uses: actions/checkout@v2 
       - name: Use Node.js ${{ matrix.node-version }}
         uses: actions/setup-node@v1
         with:
