@@ -1,5 +1,5 @@
 ---
-id: doc1
+id: doc4
 title: 这是一篇测试文章
 sidebar_label: mr.tang
 slug: /
