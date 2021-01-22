@@ -9,7 +9,7 @@ import styles from './styles.module.css';
 const features = [
   {  
     title: '建德经典小吃',
-    imageUrl: 'https://stc-new.8531.cn/assets/20181214/1544795770205_5c13b67a159bb86432f306c5.png',
+    imageUrl: 'img/xiaochi.svg',
     description: (
       <>
         我们为您提供经典的建德小吃，豆腐包、严州酥饼、苞芦（玉米）粿等
@@ -26,12 +26,11 @@ const features = [
     ),
   },
   {
-    title: 'Powered by React',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: '宠物照顾（临时）',
+    imageUrl: 'img/dog.svg',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        我們爲您提供寵物（臨時）托管，可在確保安全的情況下為您照顧您的小夥伴！
       </>
     ),
   },
@@ -70,7 +69,7 @@ function Home() {
                 styles.getStarted,
               )}
               to={useBaseUrl('docs/')}>
-              Get Started
+              有何不同
             </Link>
           </div>
         </div>

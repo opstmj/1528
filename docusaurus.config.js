@@ -1,6 +1,6 @@
 module.exports = {
-  title: '1528 常伴您左右',
-  tagline: '1528生活便利店',
+  title: '1528 生活便利店',
+  tagline: '常在您身旁',
   url: 'https://1528.fun',
   baseUrl: '/',
   onBrokenLinks: 'throw',
@@ -18,62 +18,63 @@ module.exports = {
       items: [
         {
           to: 'docs/',
-          activeBasePath: '毛遂自介',
-          label: 'Docs',
+          activeBasePath: 'docs',
+          label: '我們',
           position: 'right',
         },
-        {to: 'blog', label: '最新活动', position: 'right'},
-       
+        {to: 'blog', label: '活動', position: 'right'},
+      
       ],
     },
     footer: {
-      style: 'dark',
-      links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
-      ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // style: 'dark',
+      // links: [
+      //   {
+      //     title: 'Docs',
+      //     items: [
+      //       {
+      //         label: 'Style Guide',
+      //         to: 'docs/',
+      //       },
+      //       {
+      //         label: 'Second Doc',
+      //         to: 'docs/doc2/',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'Community',
+      //     items: [
+      //       {
+      //         label: 'Stack Overflow',
+      //         href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+      //       },
+      //       {
+      //         label: 'Discord',
+      //         href: 'https://discordapp.com/invite/docusaurus',
+      //       },
+      //       {
+      //         label: 'Twitter',
+      //         href: 'https://twitter.com/docusaurus',
+      //       },
+      //     ],
+      //   },
+      //   {
+      //     title: 'More',
+      //     items: [
+      //       {
+      //         label: 'Blog',
+      //         to: 'blog',
+      //       },
+      //       {
+      //         label: 'GitHub',
+      //         href: 'https://github.com/facebook/docusaurus',
+      //       },
+      //     ],
+      //   },
+      // ],
+      
+      copyright: `Copyright © ${new Date().getFullYear()} 1528 convenience store； Inc. Built with Docusaurus.`,
     },
   },
   presets: [
