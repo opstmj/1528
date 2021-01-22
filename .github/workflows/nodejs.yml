@@ -5,10 +5,10 @@ on: [push]
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     strategy:
       matrix:
-        node-version: [14.15.0]
+        node-version: [14.15.1]
     steps:
       - uses: actions/checkout@v2 
       - name: Use Node.js ${{ matrix.node-version }}

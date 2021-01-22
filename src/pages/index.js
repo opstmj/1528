@@ -21,7 +21,7 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        我們將在店内爲您發佈和提供社區周邊的生活、房產信息等，而這一切都是免費的！
+        我們將在店内爲您發佈和提供社區周邊的生活、房產信息等，這一切都是免費的！
       </>
     ),
   },
